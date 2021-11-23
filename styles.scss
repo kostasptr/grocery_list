@@ -1,0 +1,91 @@
+@import "reset";
+
+body{
+  background-color: orange;
+}
+
+.wrapper{
+  display:flex;
+  justify-content: center;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+  width: 30vw;
+}
+
+.titleHead{
+  font-family: 'Shalimar', cursive;
+  font-weight:500;
+  font-size: 5rem;
+  text-align: center;
+  color:black;
+}
+
+.orderContainer{
+  display:flex;
+  flex-direction:row;
+  margin-top:10px;
+  width: 400px;
+  height: 50px;
+}
+
+.icon{
+  width: 45px;
+  height: 45px;
+}
+
+.icon:hover{
+  cursor:pointer;
+}
+
+.orders{
+  margin-left:10px;
+  border-bottom-style:solid;
+  border-bottom-color: black;
+  border-bottom-width: 3px;
+  width: 345px;
+  
+}
+
+.inputBox{
+  width: 338px;
+  height: 38px;
+  border:0;
+  font-family: 'Shalimar', cursive;
+  font-weight:600;
+  font-size: 2rem;
+  letter-spacing:2px;
+  text-align: left;
+  cursor: text;
+}
+
+.inputBox:focus-visible{
+  border:0;
+  outline:0;
+}
+
+.outputsContainer{
+  width: 400px;
+  text-align: left;
+  font-family: 'Shalimar', cursive;
+  font-weight:400;
+  font-size: 2rem;
+}
+
+.outputsContainer > p{
+  margin-left: 55px;
+}
+
+.outputsContainer > p:hover {
+  cursor:pointer;
+}
+
+.myStyles{
+  cursor:pointer;
+}
